@@ -1,0 +1,81 @@
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.pic-container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.pic {
+  max-width: 500px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+
+.imagediv {
+    position: relative;
+    float: left;
+    width:  384px;
+    height: 384px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    margin: 5%;
+}
+
+.project-image {
+  width:  384px;
+  height: 384px;
+  border-radius: 10%;
+}
+
+.project-image:hover {
+  border: 5px solid black;
+}
+
+i {
+  font-size: 200%;
+  color: black;
+}
+
+i:hover {
+  color: grey;
+}
+
+.navlink {
+  color: white;
+}
+
+.tech {
+  font-size: 100%;
+}
+
+.tech:hover {
+  color: black;
+}
+
+.ruby {
+  color: red;
+}
+
+.react {
+  color: skyblue;
+}
